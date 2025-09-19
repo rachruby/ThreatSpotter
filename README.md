@@ -4,10 +4,13 @@ Developed a Python-based detection tool for host authentication logs; automated 
 
 # Project Directories
 
+# Project Directories
+
 ThreatSpotter/
-├── threatSpotter.py
-├── README.md
-├── sample_logs/
-│   └── auth.log
-├── requirements.txt
-└── .gitignore
+  threatspotter.py          # Main Python script
+  README.md                 # Project description and instructions
+  sample_logs/              # Example (anonymized) logs
+    auth.log
+  requirements.txt          # Python dependencies
+  .gitignore                # Files/folders to ignore in Git
+  output/                   # Generated detections (created at runtime)
