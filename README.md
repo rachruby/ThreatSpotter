@@ -1,5 +1,5 @@
 # ThreatSpotter
-Python-based log analysis tool using ELK stack to detect brute-force login attempts and anomalous SSH activity. Integration with MITRE ATT&amp;CK mapping.
+Developed a Python-based detection tool for host authentication logs; automated identification of brute-force login attempts and suspicious post-failure logins; integrated MITRE ATT&CK mapping (T1110, T1078) to structure alerts; produced structured JSON output to simulate automated detection pipelines.
 
 
 # Project Directories
